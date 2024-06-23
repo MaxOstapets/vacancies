@@ -1,6 +1,6 @@
 const Vacancy = () => {
     return(
-        <div className="flex justify-around items-center gap-10 w-2/3 bg-white p-5 border-l-4 border-desaturated-dark-cyan">
+        <div className="font-sans flex justify-around items-center gap-10 w-2/3 bg-white p-5 border-l-4 border-desaturated-dark-cyan">
             
             <div className="flex justify-center items-center gap-6">
                 <img src="/Images/photosnap.svg" alt="" />
@@ -15,7 +15,7 @@ const Vacancy = () => {
                         </ul>
                     </div>
 
-                    <p className="font-sans text-xl text-very-dark-cyan font-bold">Senior Frontend Developer</p>
+                    <p className="text-xl text-very-dark-cyan font-bold hover:text-desaturated-dark-cyan cursor-pointer">Senior Frontend Developer</p>
 
                     <ul className="flex justify-center items-center text-dark-cyan text-sm gap-12">
                         <li>1d ago</li>
@@ -26,11 +26,11 @@ const Vacancy = () => {
             </div>
 
             <ul className="flex justify-center items-center font-bold text-xs text-desaturated-dark-cyan gap-6">
-                <li className="bg-light-cyan-filter-tablets p-2">Frontend</li>
-                <li className="bg-light-cyan-filter-tablets p-2">Senior</li>
-                <li className="bg-light-cyan-filter-tablets p-2">HTML</li>
-                <li className="bg-light-cyan-filter-tablets p-2">CSS</li>
-                <li className="bg-light-cyan-filter-tablets p-2">JavaScript</li>
+                <li className="bg-light-cyan-filter-tablets p-2 cursor-pointer hover:bg-desaturated-dark-cyan hover:text-light-cyan-filter-tablets">Frontend</li>
+                <li className="bg-light-cyan-filter-tablets p-2 cursor-pointer hover:bg-desaturated-dark-cyan hover:text-light-cyan-filter-tablets">Senior</li>
+                <li className="bg-light-cyan-filter-tablets p-2 cursor-pointer hover:bg-desaturated-dark-cyan hover:text-light-cyan-filter-tablets">HTML</li>
+                <li className="bg-light-cyan-filter-tablets p-2 cursor-pointer hover:bg-desaturated-dark-cyan hover:text-light-cyan-filter-tablets">CSS</li>
+                <li className="bg-light-cyan-filter-tablets p-2 cursor-pointer hover:bg-desaturated-dark-cyan hover:text-light-cyan-filter-tablets">JavaScript</li>
             </ul>
         </div>
     )
