@@ -15,6 +15,10 @@ module.exports = {
 
     fontFamily: {
       'sans': 'League Spartan, sans-serif'
+    },
+
+    screens: {
+      'sm': {'max': '376px'}
     }
   },
   plugins: [],
