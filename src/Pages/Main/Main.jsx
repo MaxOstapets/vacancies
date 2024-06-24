@@ -9,7 +9,7 @@ const Main = () => {
             
             <Filter />
 
-            <div className="flex justify-center items-center mt-6">
+            <div className="flex justify-center items-center flex-col">
                 <Vacancy />
             </div>
         </>
