@@ -1,12 +1,4 @@
-const Tablets = () => {
-    const tablets = [
-        "Frontend",
-        "Senior",
-        "HTML",
-        "CSS",
-        "JavaScript"
-    ]
-    
+const Tablets = ({tablets}) => {
     return(
         <ul className="flex justify-center items-center font-bold text-xs text-desaturated-dark-cyan gap-6 sm:gap-5 sm:grid sm:grid-cols-4">
             {tablets && tablets.map(el => 

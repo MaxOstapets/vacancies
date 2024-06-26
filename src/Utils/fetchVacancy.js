@@ -1,0 +1,1 @@
+export const fetchVacancy = (url) => fetch(url).then((res) => res.json())
